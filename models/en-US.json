@@ -43,7 +43,7 @@
               "type": "OPTIONS"
             },
             {
-              "name": "number",
+              "name": "Number",
               "type": "AMAZON.NUMBER"
             }
           ]
@@ -51,10 +51,35 @@
         {
           "name": "GameIntent",
           "samples": [
+            "begin a game",
+            "begin a new game",
+            "begin game",
+            "begin new game",
+            "create a game",
+            "create a new game",
+            "create game",
+            "create new game",
+            "do a game",
+            "do a new game",
+            "do game",
+            "do new game",
+            "make a game",
+            "make a new game",
+            "make game",
+            "make new game",
+            "new game",
+            "open a game",
+            "open a new game",
+            "open game",
+            "open new game",
+            "restart",
+            "restart game",
+            "set up a game",
+            "set up a new game",
+            "set up game",
+            "set up new game",
             "start a game",
-            "and start a gane",
-            "for a game",
-            "a game"
+            "start a new game"
           ],
           "slots": []
         }
@@ -64,24 +89,18 @@
           "name": "OPTIONS",
           "values": [
             {
-              "id": "",
               "name": {
-                "value": "fizzbuzz",
-                "synonyms": []
+                "value": "fizzbuzz"
               }
             },
             {
-              "id": "",
               "name": {
-                "value": "buzz",
-                "synonyms": []
+                "value": "buzz"
               }
             },
             {
-              "id": "",
               "name": {
-                "value": "fizz",
-                "synonyms": []
+                "value": "fizz"
               }
             }
           ]
