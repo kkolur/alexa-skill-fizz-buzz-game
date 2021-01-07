@@ -1,24 +1,10 @@
-#  Build An Alexa Quiz Game Skill 🇺🇸
+#  Alexa Fizz Buzz Game Skill
 <img src="https://m.media-amazon.com/images/G/01/mobile-apps/dex/alexa/alexa-skills-kit/tutorials/quiz-game/header._TTH_.png" />
 
-This Alexa sample skill is a template for a basic quiz game skill. Provided a list of interesting facts about a topic, Alexa will quiz a user with facts from the list.
+This Alexa skill lets users play a voice-controlled version of the infamous interactive math game known to programmers everywhere: Fizz Buzz.
 
-You can see an example of this skill in action - just enable the [United States Quiz](https://www.amazon.com/Jeff-Blankenburg-United-States-Quiz/dp/B06X9GQBRL) from the [Alexa app](http://amazon.com/skills).
+For more information on this game see Wikipedia: [Fizz Buzz](https://en.wikipedia.org/wiki/Fizz_buzz).
 
-## Skill Architecture
-Each skill consists of two basic parts, a front end and a back end.
-The front end is the voice interface, or VUI.
-The voice interface is configured through the voice interaction model.
-The back end is where the logic of your skill resides.
-
-## Three Options for Skill Setup
-There are a number of different ways for you to setup your skill, depending on your experience and what tools you have available.
-
- * If this is your first skill, choose the [Alexa-Hosted backend instructions](./instructions/setup-vui-alexa-hosted.md) to get started quickly.
- * If you want to manage the backend resources in your own AWS account, you can follow the [AWS-Hosted instructions](./instructions/setup-vui-aws-hosted.md).
- * Developers with the ASK Command Line Interface configured may follow the [ASK CLI instructions](./instructions/cli.md).
-
----
 
 ## Additional Resources
 
