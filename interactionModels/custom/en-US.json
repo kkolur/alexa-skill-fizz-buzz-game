@@ -1,0 +1,133 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "fizz buzz game",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.YesIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NoIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "GameIntent",
+          "slots": [],
+          "samples": [
+            "start over",
+            "play again",
+            "play a new game",
+            "play a game",
+            "play game",
+            "start a game",
+            "start a new game",
+            "start game",
+            "set up new game",
+            "set up game",
+            "set up a new game",
+            "set up a game",
+            "open new game",
+            "open game",
+            "open a new game",
+            "open a game",
+            "new game",
+            "make new game",
+            "make game",
+            "make a new game",
+            "make a game",
+            "do new game",
+            "do game",
+            "do a new game",
+            "do a game",
+            "create new game",
+            "create game",
+            "create a new game",
+            "create a game",
+            "begin new game",
+            "begin game",
+            "begin a new game",
+            "begin a game"
+          ]
+        },
+        {
+          "name": "FizzBuzzIntent",
+          "slots": [
+            {
+              "name": "FizzBuzz",
+              "type": "OPTIONS"
+            },
+            {
+              "name": "Number",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "samples": [
+            "{Number}",
+            "my answer is {Number}",
+            "the answer is {Number}",
+            "I choose {Number}",
+            "answer is {Number}",
+            "{FizzBuzz}",
+            "my answer is {FizzBuzz}",
+            "the answer is {FizzBuzz}",
+            "I choose {FizzBuzz}",
+            "answer is {FizzBuzz}"
+          ]
+        },
+        {
+          "name": "AMAZON.RepeatIntent",
+          "samples": []
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "fizz"
+              }
+            },
+            {
+              "name": {
+                "value": "buzz"
+              }
+            },
+            {
+              "name": {
+                "value": "fizzbuzz"
+              }
+            }
+          ],
+          "name": "OPTIONS"
+        }
+      ],
+      "modelConfiguration": {
+        "fallbackIntentSensitivity": {
+          "level": "LOW"
+        }
+      }
+    }
+  },
+  "version": "10"
+}

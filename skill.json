@@ -1,38 +1,74 @@
 {
   "manifest": {
-    "publishingInformation": {
-      "locales": {
-        "en-US": {
-          "summary": "Test your knowledge of the division ",
-          "examplePhrases": [
-            "Alexa, open Fizz Buzz",
-            "Alexa, play Fizz Buzz"
-          ],
-          "keywords": [
-            "interactive",
-            "games",
-            "math",
-            "group",
-            "word",
-            "divison"
-          ],
-          "name": "Fizz Buzz",
-          "description": "Test your knowledge of division.\n\nFizz Buzz provides a fun way to keep your divison skills sharp.\n\nTo start, just say \"Alexa, launch Fizz Buzz\" or \"Alexa, open Fizz Buzz\" to start the game\".\n\nAt anytime, you can stop the game by saying \"Alexa, stop\""
-        }
-      },
-      "isAvailableWorldwide": true,
-      "testingInstructions": "Include your testing instruction (if any) here",
-      "category": "MATH",
-      "distributionCountries": []
-    },
     "apis": {
       "custom": {
         "endpoint": {
-          "sourceDir": "lambda/custom",
-          "uri": "ask-custom-FizzBuzz"
+          "uri": "arn:aws:lambda:us-east-1:063617866964:function:dfb51269-610f-44cc-ab01-28cd9cf12fa8:Release_0"
+        },
+        "interfaces": [],
+        "regions": {
+          "NA": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-east-1:063617866964:function:dfb51269-610f-44cc-ab01-28cd9cf12fa8:Release_0"
+            }
+          },
+          "EU": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:eu-west-1:063617866964:function:dfb51269-610f-44cc-ab01-28cd9cf12fa8:Release_0"
+            }
+          },
+          "FE": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-west-2:063617866964:function:dfb51269-610f-44cc-ab01-28cd9cf12fa8:Release_0"
+            }
+          }
         }
       }
     },
-    "manifestVersion": "1.0"
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "containsAds": false,
+      "isChildDirected": false,
+      "isExportCompliant": true,
+      "locales": {
+        "en-US": {}
+      },
+      "usesPersonalInfo": false
+    },
+    "publishingInformation": {
+      "automaticDistribution": {
+        "isActive": false
+      },
+      "category": "EDUCATIONAL_GAMES",
+      "distributionCountries": [],
+      "distributionMode": "PUBLIC",
+      "isAvailableWorldwide": true,
+      "locales": {
+        "en-US": {
+          "description": "Test your knowledge of the division by playing Fizz Buzz with Alexa. Fizz Buzz provides a fun way to keep your division skills sharp. To start, just say \"Alexa, play Fizz Buzz game\" or \"Alexa, open Fizz Buzz\" to start the game. At any time, you can stop the game by saying \"Alexa, stop.\"",
+          "examplePhrases": [
+            "Alexa open Fizz Buzz game",
+            "Alexa start Fizz Buzz game",
+            "Alexa play Fizz Buzz game"
+          ],
+          "keywords": [
+            "fizz",
+            "buzz",
+            "fizzbuzz",
+            "interactive",
+            "word",
+            "group",
+            "math",
+            "division",
+            "fun",
+            "games"
+          ],
+          "name": "FizzBuzzSkill-KK",
+          "summary": "Test your knowledge of the division by playing Fizz Buzz with Alexa."
+        }
+      },
+      "testingInstructions": "Sample Testing Instructions."
+    }
   }
 }
